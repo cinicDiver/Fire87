@@ -1,8 +1,11 @@
+.stdBody{
+    margin:0;
+}
 .quoteBox{
-    border:3px solid black;
     margin:0 auto;
     width:50%;
     padding:10px;
+    font-family:monospace;
 }
 .quote{
     font-style:italic;
@@ -10,13 +13,42 @@
 }
 .quoteA{
     font-size:large;
-    text-align:right
+    text-align:right;
 }
 .par{
     margin:0 auto;
     width:50%;
+    font-family:sans-serif;
+    text-align:justify;
 }
 .title1{
     margin:0 auto;
     width:50%;
+    font-family:sans-serif;
+}
+.navb{
+    width: 100vw;
+    height: 6vw;
+    background-color: #DB6700;
+}
+.navl{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+.navli{
+    list-style-type: none;
+    margin: 0 2vh;
+    padding: 1vw 0 0 0;
+    font-size: 3vh;
+}
+.nava{
+    text-decoration: none;
+    color: #F7EF8A;
+    font-family: sans-serif;
+    padding: 1vw 4vw 3vw 4vw;
+    border-radius: 5px;
+}
+.nava:hover{
+    background-color: #E08307;
 }

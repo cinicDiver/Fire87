@@ -1,25 +1,27 @@
 <?php
-
 ?>
 <html>
     <head>
-        <title>
-            The Last Dance: Ep.1
-        </title>
+        <title>Fire #87 - Last Dance: Episodios</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>
     <body class="stdBody">
         <nav class="navb">
             <ul class="navl">
-                <li class="navli"><a class="nava" href="./EpL.php">Episodios</a></li>
-                <li class="navli"><a class="nava" href="./Ep3.php">Siguiente</a></li>
-                <li class="navli"><a class="nava" href="./Ep1.php">Anterior</a></li>
-                <li class="navli"><a class="nava" href="../content.php">Contenido</a></li>
+                <li class="navli"><a href="#" class="nava" href="../content.php">Contenido</a></li>
+                <li class="navli"><a href="#" class="nava">Perfil</a></li>
+                <li class="navli"><a href="#" class="nava">Actividades</a></li>
+                <li class="navli"><a href="#" class="nava">Bitácora</a></li>
             </ul>
         </nav>
-        <h1 class="title1">Episode 2</h1>
         <div></div>
+        <h2>Episodios:</h2>
+        <ul>
+            <li><a href="./Ep1.php">Episode 1</a></li>
+            <li><a href="./Ep2.php">Episode 2</a></li>
+        </ul>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>

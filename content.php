@@ -2,25 +2,34 @@
 ?>
 <html>
     <head>
-        <title> Fire #87 </title>
+        <title>Fire #87 - Contenido</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
+        <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <h1 class="title1">Contenido</h>
+    <body class="stdBody">
+        <nav class="navb">
+            <ul class="navl">
+                <li class="navli"><a href="#" class="nava" href="./content.php">Contenido</a></li>
+                <li class="navli"><a href="#" class="nava">Perfil</a></li>
+                <li class="navli"><a href="#" class="nava">Actividades</a></li>
+                <li class="navli"><a href="#" class="nava">Bitácora</a></li>
+            </ul>
+        </nav>
         <div></div>
         <h2>Actividades:</h2>
         <ul>
-            <li>The Last Dance: <ul>
-                <li><a href="./lastDance/Ep1.php">Episode 1</a></li>
-                </ul></li>
+            <li><a href="./lastDance/EpL.php">The Last Dance<ul>
         </ul>
-        <div style="background-color:#E8B631;position:fixed;bottom:90;width:100%;height:30px"><p></p></div>
-        <div style="background-color:#E59D1B;position:fixed;bottom:60;width:100%;height:30px"><p></p></div>
-        <div style="background-color:#E08307;position:fixed;bottom:30;width:100%;height:30px"><p></p></div>
-        <div style="background-color:#DB6700;position:fixed;bottom:0;width:100%;height:30px"><p></p></div>
-        <div style="position:fixed;padding:5px;bottom:0;right:0;">
-            <p><a href="./index.php" style="text-decoration:none;font-family:Arial Black,sans-serif">Volver al inicio.</a></p>
+        <div style="height:120px"></div>
+        <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#E08307;position:fixed;bottom:30;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#DB6700;position:fixed;bottom:0;left:0;width:100%;height:30px"><p></p></div>
+        <div style="position:fixed;left:10px;bottom:0">
+                <a href="https://github.com/cinicDiver" class="fab fa-github" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
+                <a href="https://www.instagram.com/oframirez11/?hl=es-la" class="fab fa-instagram" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
+                <a href="https://www.linkedin.com/in/oframirez1095/" class="fab fa-linkedin-in" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
         </div>
     </body>
 </html>
