@@ -6,7 +6,7 @@
         <title>
             The Last Dance: Ep.1
         </title>
-        <link rel="stylesheet" href="./styling/minDecor.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
     </head>
     <body>
         <div style="position:fixed;border:3px solid black;padding:5px;top:0;left:0;">

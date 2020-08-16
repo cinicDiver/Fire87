@@ -4,7 +4,7 @@
     <head>
         <title> Fire #87 </title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./styling/minDecor.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
     </head>
     <body>
         <h1 class="title1">Bitácora</h>
