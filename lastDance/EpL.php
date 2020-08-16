@@ -10,7 +10,7 @@
     <body class="stdBody">
         <nav class="navb">
             <ul class="navl">
-                <li class="navli"><a href="#" class="nava" href="../content.php">Contenido</a></li>
+                <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="#" class="nava">Perfil</a></li>
                 <li class="navli"><a href="#" class="nava">Actividades</a></li>
                 <li class="navli"><a href="#" class="nava">Bitácora</a></li>
