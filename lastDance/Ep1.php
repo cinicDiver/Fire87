@@ -15,8 +15,15 @@
         <div style="position:fixed;border:3px solid black;padding:5px;top:0;right:0;">
             <p><a href="./Ep2.php">Siguiente episodio.</a></p>
         </div>
-        <h1 class="tilte1">Episode 1</h1>
+        <h1 class="title1">Episode 1</h1>
         <div></div>
+        <div class="quoteBox">
+            <p class="quote"><b>Organizations win titles, not players <a style="text-decoration:underline;">alone.</a></b></p>
+            <p class="quoteA"><b>-Jerry Krause, 1997-</b></p>
+        </div>
+        <div class="par">
+            <p>Las afirmaciones de Krause...</p>
+        </div>
         <div class="quoteBox">
             <p class="quote"><b>I'm gonna show you, Nobody will ever work as hard as I work.</b></p>
             <p class="quoteA"><b>-Michael Jordan, 1982-</b></p>
@@ -25,11 +32,11 @@
             <p>Michael Jordan... </p>
         </div>
         <div class="quoteBox">
-            <p class="quote"><b>Organizations win titles, not players <a style="text-decoration:underline;">alone.</a></b></p>
-            <p class="quoteA"><b>-Jerry Krause, 1997-</b></p>
+            <p class="quote"><b>The 1984-85 season will go down in history as the year Michael Jordan came to town.</b></p>
+            <p class="quoteA"><b>-Reporter, 1985-</b></p>
         </div>
         <div class="par">
-            <p>Las afirmaciones de Krause...</p>
+            <p>Loren Impsum... </p>
         </div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E59D1B;position:fixed;bottom:60;width:100%;height:30px"><p></p></div>
