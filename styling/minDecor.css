@@ -28,7 +28,7 @@
 }
 .navb{
     width: 100vw;
-    height: 6vw;
+    height: 5.5vw;
     background-color: #DB6700;
 }
 .navl{
@@ -46,7 +46,7 @@
     text-decoration: none;
     color: #F7EF8A;
     font-family: sans-serif;
-    padding: 1vw 4vw 3vw 4vw;
+    padding: 1vw 4vw 2vw 4vw;
     border-radius: 5px;
 }
 .nava:hover{

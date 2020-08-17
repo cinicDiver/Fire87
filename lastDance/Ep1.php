@@ -13,8 +13,8 @@
         <nav class="navb">
         <ul class="navl">
                 <li class="navli"><a class="nava" href="./EpL.php">Episodios</a></li>
-                <li class="navli"><a class="nava" href="./Ep2.php">Siguiente</a></li>
                 <li class="navli"><a class="nava" href="./Ep1.php">Anterior</a></li>
+                <li class="navli"><a class="nava" href="./Ep2.php">Siguiente</a></li>
                 <li class="navli"><a class="nava" href="../content.php">Contenido</a></li>
             </ul>
         </nav>
