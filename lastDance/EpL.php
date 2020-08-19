@@ -14,7 +14,7 @@
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="../profile/profile.php" class="nava">Perfil</a></li>
                 <li class="navli"><a href="#" class="nava">Actividades</a></li>
-                <li class="navli"><a href="#" class="nava">Bitácora</a></li>
+                <li class="navli"><a href="../log/elist.php" class="nava">Bitácora</a></li>
             </ul>
         </nav>
         <div></div>

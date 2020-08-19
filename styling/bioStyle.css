@@ -9,6 +9,11 @@ body {
     width: 75%;
 }
 
+.centercolumn{
+    float: none;
+    padding: 10px;
+}
+
 .rightcolumn {
     float: left;
     width: 25%;

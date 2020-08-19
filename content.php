@@ -13,13 +13,15 @@
                 <li class="navli"><a href="./content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="./profile/profile.php" class="nava">Perfil</a></li>
                 <li class="navli"><a href="#" class="nava">Actividades</a></li>
-                <li class="navli"><a href="#" class="nava">Bitácora</a></li>
+                <li class="navli"><a href="./log/elist.php" class="nava">Bitácora</a></li>
             </ul>
         </nav>
         <div></div>
-        <h2>Actividades:</h2>
+        <h2>Contenido:</h2>
         <ul>
-            <li><a href="./lastDance/EpL.php">The Last Dance<ul>
+            <li><a href="./lastDance/EpL.php">The Last Dance</li>
+            <li><a href="./profile/profile.php">Perfil</li>
+            <li><a href="./log/elist.php">Bitácora</li>
         </ul>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>

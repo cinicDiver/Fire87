@@ -2,25 +2,37 @@
 ?>
 <html>
     <head>
-        <title>Fire #87 - Perfil</title>
+        <title>Fire #87 - Contenido</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/timeline.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>
     <body class="stdBody">
         <nav class="navb">
             <ul class="navl">
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
-                <li class="navli"><a href="#" class="nava">Perfil</a></li>
+                <li class="navli"><a href="../profile/profile.php" class="nava">Perfil</a></li>
                 <li class="navli"><a href="#" class="nava">Actividades</a></li>
-                <li class="navli"><a href="../log/elist.php" class="nava">Bitácora</a></li>
+                <li class="navli"><a href="#" class="nava">Bitácora</a></li>
             </ul>
         </nav>
+        <h1 class="title1">Entradas</h1>
         <div></div>
-        <h2>Perfil:</h2>
-        <ul>
-            <li><a href="./bio.php">Bio<ul>
-        </ul>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                <h2>18/08/2020</h2>
+                <p><a href="./e180820.php">Principio de anticipación.</a></p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h2>20/08/2020</h2>
+                <p><a href="#">TBD</a></p>
+                </div>
+            </div>
+        </div>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>

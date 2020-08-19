@@ -1,0 +1,12 @@
+.tabContainer{
+    overflow-x: auto;
+}
+
+.infoTab{
+    vertical-align: middle;
+}
+
+.tabUlist{
+    list-style:none;
+}
+
