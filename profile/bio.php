@@ -17,7 +17,7 @@
         .scoob {width:40%; background-color: #DB6700;}
     </style>
     <body class="stdBody">
-        <nav class="navb">
+        <nav class="navb" id="navHead">
             <ul class="navl">
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="./profile.php" class="nava">Perfil</a></li>
@@ -30,30 +30,38 @@
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
-                    <h2>Mamoots #00</h2>
-                    <h5>Ene/2018 - Jul/2020</h5>
-                    <img class="fakeimg" src="./img/mamoots.jpg">
+                    <div class="cardVis">
+                        <h2>Mamoots #00</h2>
+                        <h5>Ene/2018 - Jul/2020</h5>
+                        <img class="fakeimg" src="./img/mamoots.jpg">
+                    </div>
                     <p>Some text..</p>
                 </div>
                 <div class="card">
-                    <h2>Universidad de los Andes #0</h2>
-                    <h5>Ago/2018 - Dic/2020</h5>
-                    <img class="fakeimg" img src="./img/andes.jpg">
+                    <div class="cardVis">
+                        <h2>Universidad de los Andes #0</h2>
+                        <h5>Ago/2018 - Dic/2020</h5>
+                        <img class="fakeimg" img src="./img/andes.jpg">
+                    </div>
                     <p>Some text..</p>
                 </div>
                 <div class="card">
-                    <h2>Inside #9</h2>
-                    <h5>Feb/2016 - Dic/2017</h5>
-                    <img class="fakeimg" src="./img/inside.jpg">
+                    <div class="cardVis">
+                        <h2>Inside #9</h2>
+                        <h5>Feb/2016 - Dic/2017</h5>
+                        <img class="fakeimg" src="./img/inside.jpg">
+                    </div>
                     <p>Some text..</p>
                 </div>
             </div>
             <div class="rightcolumn">
                 <div class="card">
-                    <h2>Sobre mí</h2>
-                    <img class="fakeimg" src="./img/me.jpg">
+                    <div class="cardVis">
+                        <h2>Sobre mí</h2>
+                        <img class="fakeimg" src="./img/me.jpg">
+                    </div>
                     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                    <div style='justify-content:center;'>
+                    <div style='text-align:center;'>
                         <!--Add checked in class to increase-->
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -63,8 +71,10 @@
                     </div>
                 </div>
                 <div class="card">
-                    <h2>Hobbies</h2>
-                    <img class="fakeimg" src='#'>
+                    <div class="cardVis">
+                        <h2>Hobbies</h2>
+                        <img class="fakeimg" src='#'>
+                    </div>
                     <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
                     <div style='justify-content:center;'>
                     </div>
@@ -86,7 +96,7 @@
                 </div>
                 <div class="card">
                 <h3>Sígueme en:</h3>
-                <div>
+                <div class="cardVis">
                     <a class="fab fa-facebook-square" style="color:#DB6700;font-size:25px;text-decoration:none;" href="https://www.facebook.com/OscarF.RamirezP/"></a>
                     <a href="https://github.com/cinicDiver" class="fab fa-github" style="color:#E08307;font-size:25px;text-decoration:none;"></a>
                     <a href="https://www.instagram.com/oframirez11/?hl=es-la" class="fab fa-instagram" style="color:#E59D1B;font-size:25px;text-decoration:none;"></a>
@@ -101,5 +111,18 @@
         <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E08307;position:fixed;bottom:30;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#DB6700;position:fixed;bottom:0;left:0;width:100%;height:30px"><p></p></div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var header = document.getElementById("navHead");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("stickyHead");
+                } else {
+                    header.classList.remove("stickyHead");
+                }
+            }
+        </script>
     </body>
 </html>

@@ -26,10 +26,18 @@
     width:50%;
     font-family:sans-serif;
 }
+
+.stickyHead{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 .navb{
     width: 100vw;
     height: 5.5vw;
     background-color: #DB6700;
+    z-index: 1000;
 }
 .navl{
     margin:0;

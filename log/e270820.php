@@ -1,25 +1,38 @@
 <?php
-
 ?>
 <html>
     <head>
-        <title>
-            The Last Dance: Ep.1
-        </title>
+        <title>Fire #87 - Log 27/08/20</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/tabStyling.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>
     <body class="stdBody">
         <nav class="navb" id="navHead">
             <ul class="navl">
-                <li class="navli"><a class="nava" href="./EpL.php">Episodios</a></li>
-                <li class="navli"><a class="nava" href="./Ep8.php">Anterior</a></li>
-                <li class="navli"><a class="nava" href="./Ep10.php">Siguiente</a></li>
-                <li class="navli"><a class="nava" href="../content.php">Contenido</a></li>
+                <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
+                <li class="navli"><a href="./e250820.php" class="nava">Anterior</a></li>
+                <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
+                <li class="navli"><a href=# class="nava">Siguiente</a></li>
             </ul>
         </nav>
-        <h1 class="title1">Episode 9</h1>
+        <h1 class="title1">Sesión 27/08/2020</h1>
         <div></div>
+        <div class="row">
+            <div class="centercolumn">
+                <div class="card">
+                    <h2>Tema</h2>
+                    <h5>Resumen</h5>
+                    <p>Texto</p>
+                        <ul>
+                            <li>Posible lista.</li>
+                        </lu>
+                    <p></p>
+                </div>
+            </div>
+        </div>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>
