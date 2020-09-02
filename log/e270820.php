@@ -15,7 +15,7 @@
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="./e250820.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href=# class="nava">Siguiente</a></li>
+                <li class="navli"><a href="./e010920.php" class="nava">Siguiente</a></li>
             </ul>
         </nav>
         <h1 class="title1">Sesión 27/08/2020</h1>
@@ -23,13 +23,69 @@
         <div class="row">
             <div class="centercolumn">
                 <div class="card">
-                    <h2>Tema</h2>
-                    <h5>Resumen</h5>
-                    <p>Texto</p>
+                    <h2>Del concepto a lo profesional</h2>
+                    <h5>Componente mental como pivote del campo profesional</h5>
+                    <p>La toma de decisiones se fundamenta en el conocimiento obtenido de:</p>
                         <ul>
-                            <li>Posible lista.</li>
+                            <li>Los cuatro acuerdos</li>
+                            <li>El camino del Arco</li>
+                            <li>Los 4 pasos </li>
                         </lu>
-                    <p></p>
+                    <p>La toma de acciones es alimentada por los conceptos obtenidos para la toma de decisiones.</p>
+                    <p>Con los objetivos en mente: </p>
+                        <ul>
+                            <li>Cualitativo:
+                                <ul>
+                                    <li>Misión</li>
+                                    <li>Visión</li>
+                                </ul>
+                            </li>
+                            <li>Cuantitativo:
+                                <ul>
+                                    <li>Ranking nacional</li>
+                                    <li>Proyecto internacional</li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+                <div class="card">
+                    <h2>Componente mental</h2>
+                    <h5>Marcos</h5>
+                    <p>El componente mental es la piedra ángular de la técnica, que fundamenta la táctica.</p>
+                    <p>Trabajar desde la voluntad para construir. </p>
+                </div>
+                <div class="card">
+                    <h2>Técnicas</h2>
+                    <h5>Técnicas trabajadas hasta el momento</h5>
+                    <p>
+                        <ul>
+                            <li>Movimiento</li>
+                            <li>Lectura</li>
+                            <li>Conversión (Aliados positivos)</li>
+                            <li>Comunicación (Animal Spirit)</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Técnica de lectura</h2>
+                    <h5>Aproximación a la lectura del juego</h5>
+                    <p>Objetivos a identificar</p>
+                        <ul>
+                            <li>Lo propio -> Lo emocional </li>
+                            <li>Lo externo</li>
+                            <li>La tarea</li>
+                        </ul>
+                </div>
+                <div class="card">
+                    <h2>Tarea</h2>
+                    <h5>Volúmen de cargas</h5>
+                    <p>En materia de volumen, la tendencia desde el componente mental a la competencia se comporta:</p>
+                    <ul>
+                        <li>Física: Decreciente</li>
+                        <li>Técnica: Decreciente</li>
+                        <li>Táctica: Creciente</li>
+                    </ul>
+                    <p>El volúmen de la carga mental sin embargo se comporta de manera ascendente de igual forma </p>
                 </div>
             </div>
         </div>

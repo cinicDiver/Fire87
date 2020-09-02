@@ -41,7 +41,13 @@
             <div class="container right">
                 <div class="content">
                 <h2>27/08/2020</h2>
-                <p><a href="./e270820.php" class="entryTag">TBD</a></p>
+                <p><a href="./e270820.php" class="entryTag">Del concepto a lo profesonal</a></p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                <h2>01/09/2020</h2>
+                <p><a href="./e250820.php" class="entryTag">Técnica de lectura</a></p>
                 </div>
             </div>
         </div>
