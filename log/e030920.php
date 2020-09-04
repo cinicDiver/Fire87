@@ -2,7 +2,7 @@
 ?>
 <html>
     <head>
-        <title>Fire #87 - Log 01/09/20</title>
+        <title>Fire #87 - Log 03/09/2020</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
@@ -13,46 +13,40 @@
         <nav class="navb" id="navHead">
             <ul class="navl">
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
-                <li class="navli"><a href="./e270820.php" class="nava">Anterior</a></li>
+                <li class="navli"><a href="./e010920.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href="./e030920.php" class="nava">Siguiente</a></li>
+                <li class="navli"><a href="#" class="nava">Siguiente</a></li>
             </ul>
         </nav>
-        <h1 class="title1">Sesión 01/09/2020</h1>
+        <h1 class="title1">Sesión 03/09/2020</h1>
         <div></div>
         <div class="row">
             <div class="centercolumn">
                 <div class="card">
-                    <h2>Fire Spirit</h2>
-                    <h5>La transformación del animal spirit</h5>
-                    <p>El Animal Spirit debe convertirse en un elemento intrínseco del club y jugador Fire, 
-                        un Fire Spirit que se convierta en la herramienta fundamental de comunicación.</p>
-                    <p>Acoplar la frase: "El fuego que enciende otro fuego" al método de comunicación.</p>
+                    <h2>La tarea: Torneos</h2>
+                    <h5>Determinar los objetivos</h5>
+                    <p>Los específicos:
+                        <ul>
+                            <li>Cualitativos: SOTG</li>
+                            <li>Cuantitativos: Rankeos</li>
+                        </ul>
+                    </p>
+                    <p>Individual/Grupal:
+                        <ul>
+                            <li>Volitivo</li>
+                            <li>Grupal</li>
+                        </ul>
+                    </p>
                 </div>
                 <div class="card">
-                    <h2>Técnica de lectura</h2>
-                    <h5>Composición</h5>
-                    <p>La lectura del juego no es estática, se nutre de componentes varios.</p>
-                    <p>Objetivos:
-                        <lu>
-                            <li>Personal</li>
-                            <li>Externo</li>
-                            <li>Tarea</li>
-                        </lu>
-                    </p>
-                    <p>Roles:
-                        <lu>
-                            <li>Lanzador</li>
-                            <li>Receptor</li>
-                            <li>Fire Spirit</li>
-                        </lu>
-                    </p>
-                    <p>Acciones:
-                        <ul>
-                            <li>Ataque sobre defensa</li>
-                            <li>Defensa sobre ataque</li>
-                        </lu>
-                    </p>
+                    <h2>Estrategia</h2>
+                    <h5>Más allá de la teoría</h5>
+                    <p>Ya al tener claro los sistemas de ataque sobre defensa o de defensa sobre ataque, y conociendo 
+                        los tres roles posibles, se puede implementar lo trabajado.</p>
+                    <p>En base a la capacidad de lectura individual se construye la noción de decisiones individuales 
+                        en escenarios particuales.</p>
+                    <p>Derivar de las lecturas igualmente obstáculos y derrotas para replicar durante el entrenamiento y 
+                        los amistosos.</p>
                 </div>
             </div>
         </div>

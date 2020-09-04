@@ -47,7 +47,13 @@
             <div class="container left">
                 <div class="content">
                 <h2>01/09/2020</h2>
-                <p><a href="./e250820.php" class="entryTag">Técnica de lectura</a></p>
+                <p><a href="./e010920.php" class="entryTag">Técnica de lectura</a></p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h2>03/09/2020</h2>
+                <p><a href="./e030920.php" class="entryTag">Lecturas</a></p>
                 </div>
             </div>
         </div>
