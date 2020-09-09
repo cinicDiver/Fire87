@@ -2,7 +2,7 @@
 ?>
 <html>
     <head>
-        <title>Fire #87 - Log 03/09/2020</title>
+        <title>Fire #87 - 08/09/2020</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
@@ -13,40 +13,39 @@
         <nav class="navb" id="navHead">
             <ul class="navl">
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
-                <li class="navli"><a href="./e010920.php" class="nava">Anterior</a></li>
+                <li class="navli"><a href="./e030920.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href="./e080920.php" class="nava">Siguiente</a></li>
+                <li class="navli"><a href="#" class="nava">Siguiente</a></li>
             </ul>
         </nav>
-        <h1 class="title1">Sesión 03/09/2020</h1>
+        <h1 class="title1">Sesión 08/09/2020</h1>
         <div></div>
         <div class="row">
             <div class="centercolumn">
                 <div class="card">
-                    <h2>La tarea: Torneos</h2>
-                    <h5>Determinar los objetivos</h5>
-                    <p>Los específicos:
+                    <h2>Técnica de lectura</h2>
+                    <h5>Entrenamiento</h5>
+                    <p>Existen tres momentos diferentes del entrenamiento:</p>
+                    <p>
                         <ul>
-                            <li>Cualitativos: SOTG</li>
-                            <li>Cuantitativos: Rankeos</li>
-                        </ul>
-                    </p>
-                    <p>Individual/Grupal:
-                        <ul>
-                            <li>Volitivo</li>
-                            <li>Grupal</li>
+                            <li>Grupal: Entrenamientos técnico/tácticos con el equipo.</li>
+                            <li>Invisible: Aquel que complementa mi desempeño particular en otros aspectos. 
+                                <ul>
+                                    <li>Volutivo: Actividades intangibles de desarrollo personal.</li>
+                                    <li>Praxémico: Actividades relacionadas con las mejoras tangibles.</li>
+                                </ul>
+                            </li>
+                            <li>Personalizado: Comunicación con el Coach con respecto a mí proceso y desempeño.</li>
                         </ul>
                     </p>
                 </div>
                 <div class="card">
-                    <h2>Estrategia</h2>
-                    <h5>Más allá de la teoría</h5>
-                    <p>Ya al tener claro los sistemas de ataque sobre defensa o de defensa sobre ataque, y conociendo 
-                        los tres roles posibles, se puede implementar lo trabajado.</p>
-                    <p>En base a la capacidad de lectura individual se construye la noción de decisiones individuales 
-                        en escenarios particuales.</p>
-                    <p>Derivar de las lecturas igualmente obstáculos y derrotas para replicar durante el entrenamiento y 
-                        los amistosos.</p>
+                    <h2>Entrenamiento invisible</h2>
+                    <h5>Herramientas</h5>
+                    <p>La respiración es una herramienta de autoreconocimiento para auxiliar la actividad de 
+                        indentificar los espacios a trabajar interiormente.</p>
+                    <p>Identificar los espacios a trabajar nos permite realizar el ejercicio de conversión de 
+                        una situación adversa en una situación aliada en la construcción.</p>
                 </div>
             </div>
         </div>
