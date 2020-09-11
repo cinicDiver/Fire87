@@ -15,7 +15,7 @@
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="./e030920.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href="#" class="nava">Siguiente</a></li>
+                <li class="navli"><a href="./e100920.php" class="nava">Siguiente</a></li>
             </ul>
         </nav>
         <h1 class="title1">Sesión 08/09/2020</h1>
