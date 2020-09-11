@@ -59,7 +59,13 @@
             <div class="container left">
                 <div class="content">
                 <h2>08/09/2020</h2>
-                <p><a href="./e010920.php" class="entryTag">TBD</a></p>
+                <p><a href="./e080920.php" class="entryTag">Lectura de entrenamiento</a></p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h2>10/09/2020</h2>
+                <p><a href="./e100920.php" class="entryTag">Círculo de la vida</a></p>
                 </div>
             </div>
         </div>

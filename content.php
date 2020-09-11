@@ -19,9 +19,9 @@
         <div></div>
         <h2>Contenido:</h2>
         <ul>
-            <li><a href="./lastDance/EpL.php">The Last Dance</li>
-            <li><a href="./profile/profile.php">Perfil</li>
-            <li><a href="./log/elist.php">Bitácora</li>
+            <li><a href="./lastDance/EpL.php">The Last Dance</a></li>
+            <li><a href="./profile/profile.php">Perfil</a></li>
+            <li><a href="./log/elist.php">Bitácora</a></li>
         </ul>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>

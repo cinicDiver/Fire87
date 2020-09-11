@@ -19,7 +19,7 @@
         <div></div>
         <h2>Perfil:</h2>
         <ul>
-            <li><a href="./bio.php">Bio<ul>
+            <li><a href="./bio.php">Bio</a></li>
         </ul>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
