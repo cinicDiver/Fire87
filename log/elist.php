@@ -68,6 +68,12 @@
                 <p><a href="./e100920.php" class="entryTag">Círculo de la vida</a></p>
                 </div>
             </div>
+            <div class="container left">
+                <div class="content">
+                <h2>15/09/2020</h2>
+                <p><a href="./e150920.php" class="entryTag">TBD</a></p>
+                </div>
+            </div>
         </div>
         <div style="height:120px"></div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px;z-index:100;"><p></p></div>

@@ -17,7 +17,7 @@
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
                 <li class="navli"><a href="./e080920.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href="#" class="nava">Siguiente</a></li>
+                <li class="navli"><a href=".e150920.php" class="nava">Siguiente</a></li>
             </ul>
         </nav>
         <h1 class="title1">Sesión 10/09/2020</h1>
@@ -41,7 +41,7 @@
                             <li>Concentración: La consistencia de la atención dedicada a una actividad.</li>
                             <li>Empatía: La capacidad de comprender al otro desde sus ojos.</li>
                             <li>Humildad: La conciencia de pequeñez del ser.</li>
-                            <li>Orden: La conivencia pertinente y armoniosa de las partes.</li>
+                            <li>Orden: La convivencia pertinente y armoniosa de las partes.</li>
                             <li>Pasión: La entrega del ser a la tarea.</li>
                             <li>Resiliencia: La consistencia de determinación a cumplir con la tarea.</li>
                             <li>Respeto: El entendimiento de la variabilidad y diferencia.</li>
