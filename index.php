@@ -6,8 +6,8 @@
     </head>
     <body>
         <div style="position:fixed;left:45%;top:30%;text-align:center;">
-            <h1 style="font-family:Arial Black,sans-serif;font-size:100px;color:#F7EF8A;text-decoration:none;margin-bottom:unset;margin-top:unset;">87</h1>
-            <p><a href="./content.php" style="font-family:Arial Black,sans-serif;font-size:40px;color:#F7EF8A;text-decoration:none;">Entrar</a></p>
+            <h1 style="font-family:Arial Black,sans-serif;font-size:100px;color:#E8B631;text-decoration:none;margin-bottom:unset;margin-top:unset;">87</h1>
+            <p><a href="./content.php" style="font-family:Arial Black,sans-serif;font-size:40px;color:#E8B631;text-decoration:none;">Entrar</a></p>
         </div>
         <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
         <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>

@@ -119,7 +119,7 @@
             var intChart= new Chart(ctx,
                 {
                     type:'polarArea',
-                    data:circInt,
+                    data:circAcc,
                     options: {
                         maintainAspectRatio: false,
                         legend:{display: false}
@@ -139,7 +139,7 @@
             var intChart= new Chart(ctx,
                 {
                     type:'polarArea',
-                    data:circInt,
+                    data:circLanz,
                     options: {
                         maintainAspectRatio: false,
                         legend:{display: false}

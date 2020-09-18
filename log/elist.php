@@ -71,7 +71,13 @@
             <div class="container left">
                 <div class="content">
                 <h2>15/09/2020</h2>
-                <p><a href="./e150920.php" class="entryTag">TBD</a></p>
+                <p><a href="./e150920.php" class="entryTag">El círculo integral</a></p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                <h2>17/09/2020</h2>
+                <p><a href="./e170920.php" class="entryTag">TBD</a></p>
                 </div>
             </div>
         </div>

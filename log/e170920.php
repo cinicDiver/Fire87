@@ -1,0 +1,284 @@
+<?php
+?>
+<html>
+    <head>
+        <title>Fire #87 - 17/09/2020</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
+        <link rel="stylesheet" href="../styling/tabStyling.css" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg==" crossorigin="anonymous"></script>
+    </head>
+    <body class="stdBody">
+        <nav class="navb" id="navHead">
+            <ul class="navl">
+                <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
+                <li class="navli"><a href="./e150920.php" class="nava">Anterior</a></li>
+                <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
+                <li class="navli"><a href="#" class="nava">Siguiente</a></li>
+            </ul>
+        </nav>
+        <h1 class="title1">Sesión 17/09/2020</h1>
+        <div></div>
+        <div class="row">
+            <div class="centercolumn">
+                <div class="card">
+                    <h2>Conceptos</h2>
+                    <h5>Lanzamientos</h5>
+                    <p>Primarios: Aquellos más comunes que constituyen la base del deporte.
+                        <ol>
+                            <li>Backhand</li>
+                            <li>Forehand</li>
+                            <li>Hammer</li>
+                        </ol>
+                    </p>
+                    <p>Secundarios: Situacionales.
+                        <ol>
+                            <li>Scoober</li>
+                            <li>Blade</li>
+                            <li>Overhand</li>
+                            <li>Drank</li>
+                        </ol>
+                    </p>
+                    <p>Terciarios: Parten de las bases.
+                        <ol>
+                            <li>Push-pass</li>
+                            <li>Lefty</li>
+                            <li>Thumber</li>
+                        </ol>
+                    </p>
+                </div>
+                <div class="card">
+                    <h2>Técnica</h2>
+                    <h5>En situaciones de lanzamiento</h5>
+                    <p>Se ven afectados por la situación del ambiente: Upwind, Downwind y Humedad.</p>
+                    <p>Igualmente, los ángulos afectan los lanzamientos primarios: Inside, plano y outside.</p>
+                    <p>Tambien, las ventanas de altura son particulares para cada lanzamiento.</p>
+                    <table>
+                        <tr>
+                            <th>Left</th><th>Upper</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td>P1,P2,P3,</td><td>S2</td><td>P1,P2,S1,S2,S3,T1,T2,T3</td>
+                        </tr>
+                        <tr>
+                            <th>Left</th><th>Mid</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td>P1,P2,T1</td><td></td><td>P1,P2,T1,T2</td>
+                        </tr>
+                        <tr>
+                            <th>Left</th><th>Lower</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td>P1,P2</td><td></td><td>P1,P2</td>
+                        </tr>
+                    </table>
+                    <p>Adicionalmente la distancia excluye lanzamientos:</p>
+                    <table>
+                        <tr>
+                            <th>Lanzamiento</th><th>Corto (0-30)</th><th>Medio (30-60)</th><th>Corto (60&gt;)</th>
+                        </tr>
+                        <tr>
+                            <th>Backhand</th><th>X</th><th>X</th><th>X</th>
+                        </tr>
+                        <tr>
+                            <th>Forehand</th><th>X</th><th>X</th><th>X</th>
+                        </tr>
+                        <tr>
+                            <th>Hammer</th><th>X</th><th>X</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Scoober</th><th>X</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Blade</th><th>X</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Overhand</th><th>X</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Drank</th><th>X</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Push</th><th>(0-8)</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Lefty</th><th>(0-10)</th><th>-</th><th>-</th>
+                        </tr>
+                        <tr>
+                            <th>Thumber</th><th>X</th><th>-</th><th>-</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card">
+                    <h2>10 Lanzamientos</h2>
+                    <h5>Lo que hay:</h5>
+                    <div>
+                        <canvas id="lanzChart"></canvas>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Tarea</h2>
+                    <h5>Evaluaciones personales:</h5>
+                    <p>Mapa de ventanas</p>
+                    <table>
+                        <tr>
+                            <th>Left</th><th>Upper</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td><span style="color:green;">P1,P2,P3</span></td><td><span style="color:green;">S2</span></td><td><span style="color:green;">P1,P2,S1,S2</span>,<span style="color:red;">S3</span>,<span style="color:green;">T1,T2,T3</span></td>
+                        </tr>
+                        <tr>
+                            <th>Left</th><th>Mid</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td><span style="color:green;">P1,P2,T1</span></td><td></td><td><span style="color:green;">P1,P2,T1,T2</span></td>
+                        </tr>
+                        <tr>
+                            <th>Left</th><th>Lower</th><th>Right</th>
+                        </tr>
+                        <tr>
+                            <td><span style="color:green;">P1,P2</span></td><td></td><td><span style="color:green;">P1,P2</span></td>
+                        </tr>
+                    </table>
+                    <p>Tabla de distancias:</p>
+                    <table>
+                        <tr>
+                            <th>Lanzamiento</th><th>Corto (0-30)</th><th>Medio (30-60)</th><th>Corto (60&gt;)</th>
+                        </tr>
+                        <tr>
+                            <td>Backhand</td><td>9</td><td>7</td><td>7</td>
+                        </tr>
+                        <tr>
+                            <td>Forehand</td><td>5</td><td>8</td><td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Hammer</td><td>8</td><td>8</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Scoober</td><td>4</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Blade</td><td>7</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Overhand</td><td>3</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Drank</td><td>1</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Push</td><td>7</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Lefty</td><td>3</td><td>-</td><td>-</td>
+                        </tr>
+                        <tr>
+                            <td>thumber</td><td>4</td><td>-</td><td>-</td>
+                        </tr>
+                    </table>
+                    <p>Tabla de Situaciones:</p>
+                    <table>
+                        <tr>
+                            <th>Lanzamiento</th><th>Upwind</th><th>Downwind</th><th>Wet</th>
+                        </tr>
+                        <tr>
+                            <td>Backhand</td><td>5</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Forehand</td><td>10</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Hammer</td><td>5</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Scoober</td><td>5</td><td>5</td><td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Blade</td><td>5</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Overhand</td><td>0</td><td>5</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Drank</td><td>0</td><td>0</td><td>0</td>
+                        </tr>
+                        <tr>
+                            <td>Push</td><td>5</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Lefty</td><td>0</td><td>5</td><td>5</td>
+                        </tr>
+                        <tr>
+                            <td>thumber</td><td>0</td><td>5</td><td>0</td>
+                        </tr>
+                    </table>
+                    <p>Tabla de ángulos B/F:</p>
+                    <table>
+                        <tr>
+                            <th>Cuadrante</th><th>Backhand</th><th>Forehand</th>
+                        </tr>
+                        <tr>
+                            <td>Out-Up</td><td>5</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>In-Up</td><td>5</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Out-Down</td><td>10</td><td>10</td>
+                        </tr>
+                        <tr>
+                            <td>In-Down</td><td>10</td><td>10</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div style="height:120px"></div>
+        <div style="background-color:#E8B631;position:fixed;bottom:90;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#E59D1B;position:fixed;bottom:60;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#E08307;position:fixed;bottom:30;left:0;width:100%;height:30px"><p></p></div>
+        <div style="background-color:#DB6700;position:fixed;bottom:0;left:0;width:100%;height:30px"><p></p></div>
+        <div style="position:fixed;left:10px;bottom:0">
+                <a href="https://github.com/cinicDiver" class="fab fa-github" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
+                <a href="https://www.instagram.com/oframirez11/?hl=es-la" class="fab fa-instagram" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
+                <a href="https://www.linkedin.com/in/oframirez1095/" class="fab fa-linkedin-in" style="color:#F7EF8A;font-size:25px;text-decoration:none;"></a>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var header = document.getElementById("navHead");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("stickyHead");
+                } else {
+                    header.classList.remove("stickyHead");
+                }
+            };
+
+            var circLanz = {
+                labels: ["Backhand","Forehand","Hammer","Scoober","Blade","Overhand","Drank","Push pass","Lefty","Thumber"],
+                datasets: [{
+                    data: [6,8,8,4,7,3,1,7,3,4],
+                    backgroundColor:["#e8b631","#e7ae29","#e6a522","#e59d1b","#e49414","#e28b0d","#e18307","#df7a03","#dd7001","#db6700"]
+                }]
+            };
+
+            var ctx= document.getElementById('lanzChart');
+            var intChart= new Chart(ctx,
+                {
+                    type:'polarArea',
+                    data:circLanz,
+                    options: {
+                        maintainAspectRatio: false,
+                        legend:{display: false}
+                    }
+                }
+            );
+        </script>
+    </body>
+</html>
