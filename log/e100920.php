@@ -3,7 +3,8 @@
 <html>
     <head>
         <title>Fire #87 - Log 10/09/2020</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/tabStyling.css" type="text/css"/>

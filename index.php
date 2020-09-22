@@ -2,6 +2,8 @@
 ?>
 <html>
     <head>
+        <title>Fire #87</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"> 
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>
     <body>

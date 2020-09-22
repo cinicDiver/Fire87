@@ -3,9 +3,9 @@
 ?>
 <html>
     <head>
-        <title>
-            The Last Dance: Ep.1
-        </title>
+        <title>The Last Dance: Ep.1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
     </head>

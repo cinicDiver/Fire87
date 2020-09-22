@@ -3,7 +3,8 @@
 <html>
     <head>
         <title>Fire #87 - 15/09/2020</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/tabStyling.css" type="text/css"/>
@@ -15,9 +16,9 @@
         <nav class="navb" id="navHead">
             <ul class="navl">
                 <li class="navli"><a href="../content.php" class="nava">Contenido</a></li>
-                <li class="navli"><a href="./100920.php" class="nava">Anterior</a></li>
+                <li class="navli"><a href="./e100920.php" class="nava">Anterior</a></li>
                 <li class="navli"><a href="./elist.php" class="nava">Entradas</a></li>
-                <li class="navli"><a href="./170920.php" class="nava">Siguiente</a></li>
+                <li class="navli"><a href="./e170920.php" class="nava">Siguiente</a></li>
             </ul>
         </nav>
         <h1 class="title1">Sesión 15/09/2020</h1>

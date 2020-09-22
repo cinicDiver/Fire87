@@ -2,8 +2,9 @@
 ?>
 <html>
     <head>
-        <title>Fire #87 - Contenido</title>
-        <meta charset="utf-8">
+        <title>Fire 87 - Bitácora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="../styling/minDecor.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/timeline.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
