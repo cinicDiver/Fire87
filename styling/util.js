@@ -14,7 +14,7 @@ function generateTableHead(table, data) {
         let text = document.createTextNode(key);
         th.appendChild(text);
         row.appendChild(th);
-    }
+    };
 }
 
 function generateTable(table, data) {
@@ -25,6 +25,6 @@ function generateTable(table, data) {
         let text = document.createTextNode(element[key]);
         cell.appendChild(text);
         }
-    }
+    };
 }
 

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="../styling/bioStyle.css" type="text/css"/>
         <link rel="stylesheet" href="../styling/tabStyling.css" type="text/css"/>
         <script src="https://kit.fontawesome.com/e7c5c9bea9.js" crossorigin="anonymous"></script>
+        <script src="../styling/util.js"></script>
     </head>
     <body class="stdBody">
         <nav class="navb" id="navHead">
@@ -22,9 +23,13 @@
         <div class="row">
             <div class="centercolumn">
                 <div class="card">
-                    <h2>Tema</h2>
-                    <h5>Título</h5>
-                    <p>Cuerpo</p>
+                    <h2>Tarea</h2>
+                    <h5>Parámetros</h5>
+                    <p>La defensa se divide en diferentes categorías y cada categoría requiere
+                         diferentes habilidades.</p>
+                    <table id="defParam" class="tableMin">
+
+                    </table>
                 </div>
             </div>
         </div>
@@ -51,5 +56,16 @@
                 }
             }
         </script>
+    <script>
+        let varDef=[
+            {Defensa:"Al disco", Parametros:"Lado, Flujo, Zona, Entorno."},
+            {Defensa:"Al corte", Parametros:"Lado, Zonas, Entorno, 'Timming'."},
+            {Defensa:"Mixta", Parametros:"Zonas, Entorno."}
+        ];
+        let element = document.getElementById("defParam")
+        let headers = Object.keys(varDef[0]);
+        generateTableHead(element, headers);
+        generateTable(element, varDef);
+    </script>
     </body>
 </html>

@@ -63,3 +63,28 @@
 .nava:hover{
     background-color: #E08307;
 }
+
+.tableMin{
+    box-shadow: inset 0px 0px 5px 5px #DB6700,inset 0px 0px 5px 5px #E08307,inset 0px 0px 5px 5px #E59D1B,inset 0px 0px 5px 5px #E8B631;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.tableMin th{
+    border: 1px solid back;
+    background: #DB6700;
+    padding: 10px;
+}
+
+.tableMin td{
+    padding: 5px;
+    text-align: justify;
+}
+
+.tabContainer{
+    overflow-x: auto;
+}
+
+.tabUlist{
+    list-style:none;
+}
