@@ -2,13 +2,14 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 250px;
+    width: 350px;
     border-radius: 25px;
     background-color: #DB6700;
 }
   
 div.gallery:hover {
     border: 1px solid #777;
+    transform: scale(1.1);
 }
   
 div.gallery img {
@@ -29,4 +30,10 @@ div.desc {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
+}
+
+.eVideo{
+    display: block;
+    width: 100%;
 }
